@@ -1,28 +1,39 @@
-h1{
-    color:green ;
-    font-family: cursive;
+.gallery img {
+width: 100%
 }
-
+h2{
+    font-family: Impact,fantasy;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: cornflowerblue;
+    
+}
+h4{
+    font-family: Impact,fantasy;
+    font-size: 20px;
+    font-style: italic;
+    color: cornflowerblue;
+}
 p{
-    color: rgb(34, 0, 255);
-    font-family: fantasy;
+    font-family:Helvetica, sans-serif;
 }
-ul{
-    list-style-image: url('images/pointer-icon.png');
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
 }
-ol{
-    list-style-type:upper-roman;
-}
-
- #menu-bar  a{
-    font-family: fantasy;
+a{
+    color: white;
+    font-family:Helvetica, sans-serif;
+    font-size: 18px;
     text-decoration: none;
-    background-color: aquamarine;
-    padding: 5px; ;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+#menu a:hover{
+        color: #5077bd;
 
-
- #menu-bar a:hover{
-    background-color: aqua;
-    color:#ffffff;
 }
